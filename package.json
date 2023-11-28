@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.12.1",
+    "glob": "^10.3.10"
+  },
+  "name": "discord.js_bot",
+  "version": "1.0.0",
+  "main": "System/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix2336/discord.js_bot.git"
+  },
+  "author": "felix2336",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felix2336/discord.js_bot/issues"
+  },
+  "homepage": "https://github.com/felix2336/discord.js_bot#readme",
+  "description": ""
+}
