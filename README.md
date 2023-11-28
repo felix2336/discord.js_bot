@@ -1,0 +1,1 @@
+# Um den Bot zu starten ein terminal in diesem Ordner öffnen und "node ." ausführen

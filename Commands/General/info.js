@@ -20,5 +20,4 @@ module.exports = {
                                                   //                                                                               vvvvvvvvvvvvvvv
         interaction.reply({ embeds: [embed] })    //um das Embed als Antwort auf den Befehl anzuzeigen (Ergänze ({embeds: [embed], ephemeral: true})), damit die Nachricht nur von demjenigen gesehen wird, der den Befehl ausführt
     }
-
 }
