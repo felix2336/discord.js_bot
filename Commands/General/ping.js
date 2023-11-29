@@ -12,3 +12,4 @@ module.exports = {
 	async execute(interaction){
         interaction.reply({content: 'Pong'}) //= interaction.reply('Pong') (content = Nachrichteninhalt)
     }
+}
