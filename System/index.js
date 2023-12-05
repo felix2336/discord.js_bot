@@ -34,6 +34,6 @@ client.commands = new Collection();
 client.buttons = new Collection();
 // client.modals = new Collection();
 
-client.setMaxListeners(Infinity)
+client.setMaxListeners(0)
 client.login('DEIN_BOT_TOKEN')
 module.exports = client;
