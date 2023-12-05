@@ -26,7 +26,7 @@ const { glob } = require("glob");
 const PG = promisify(glob);
 const Ascii = require("ascii-table");
 
-["events", "commands", "buttons", /*"modals", "crash"*/].forEach(handler => {
+["events", "commands", "buttons" /*,"modals", "crash"*/].forEach(handler => {
     require(`./Handler/${handler}`)(client, PG, Ascii);
 });
 
