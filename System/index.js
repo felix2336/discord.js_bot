@@ -36,4 +36,4 @@ client.buttons = new Collection();
 
 client.setMaxListeners(0);
 client.login('DEIN_BOT_TOKEN');
-module.exports = client;
+module.exports = client
