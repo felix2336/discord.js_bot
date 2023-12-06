@@ -21,6 +21,7 @@ const client = new Client({
         Partials.GuildScheduledEvent,
     ],
 });
+const config = require('../config.json')
 const { promisify } = require("util");
 const { glob } = require("glob");
 const PG = promisify(glob);
@@ -40,5 +41,5 @@ client.buttons = new Collection();
 // client.modals = new Collection();
 
 client.setMaxListeners(0);
-client.login('DEIN_BOT_TOKEN');
+client.login(config.token);
 module.exports = client
